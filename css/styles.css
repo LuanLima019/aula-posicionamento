@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 header{
@@ -27,31 +28,100 @@ header img{
 
 li{
     list-style: none;
-    color: aliceblue;
+    color: black;
     font-weight: bold;
     padding: 10px;
+    font-size: 20px;
+    
 }
 
+.exemplo {
+    text-align: center;
+}
 
 .exemplo li{
-    background-color: violet;
-    height: 200px;
+    background-color: red;
+    height: 240px;
     width: 200px;
-    display: block;
-    margin-left: 20px;
+    display: inline-block;
+    
     
 }
 
 li:nth-child(2){
-    background-color: #f4c141;
-    height: 200px;
+    background-color: rgb(255, 251, 0);;
+    height: 220px;
     width: 200px;
     
+}
+li:nth-child(3){
+    background-color: greenyellow;
+    height: 200px;
+    width: 200px;
+}
+
+li:nth-child(4){
+    background-color: goldenrod;
+    height: 180px;
+    width: 200px;
 }
 
 li:last-child{
     background-color: blue;
-    height: 200px;
+    height: 160px;
     width: 200px;
 }
 
+
+.container ul{
+    display: flex;
+    
+}
+.fds li{
+    background-color: rgb(51, 255, 51);
+    width: 200px;
+    height: 100px;
+}
+.fds {flex-direction: row;
+    justify-content: space-around;
+    align-self: auto;
+}
+
+.tarefas{
+    text-align: center;
+    
+    }
+.tarefas li{
+    background-color: rgb(51, 150, 207);
+    height: 130px;
+    width: 230px;
+    text-align: center;
+    display: inline-block;
+}
+
+.tarefas li:nth-child(2) {
+    background-color: rgb(43, 101, 226);
+    height: 150px;  
+}
+
+
+.tarefas li:nth-child(3) {
+    background-color: rgba(61, 34, 214, 0.925)
+}
+
+#pudim {
+    position: sticky;
+    top: 20px;
+}
+.foto  {
+    position: absolute;
+    left: 18%;
+    top: 58%;
+    
+}
+#baleia {
+    height: 100px ;
+    width: 120px;
+  
+    
+}
